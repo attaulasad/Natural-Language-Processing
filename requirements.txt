@@ -1,0 +1,18 @@
+# NLP Project Suite — Requirements
+# Python >= 3.9
+
+torch>=2.1.0
+torchvision
+transformers>=4.38.0
+datasets>=2.18.0
+evaluate>=0.4.1
+seqeval>=1.2.2
+faiss-cpu>=1.7.4          # or faiss-gpu for GPU support
+nltk>=3.8.1
+scikit-learn>=1.4.0
+numpy>=1.24.0
+pandas>=2.0.0
+tqdm>=4.66.0
+sentencepiece             # for XLM-RoBERTa tokenizer
+protobuf>=3.20.0
+accelerate>=0.27.0        # optional, speeds up Trainer
